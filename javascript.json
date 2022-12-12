@@ -1,0 +1,14 @@
+{
+  "console.log": {
+    "prefix": "c",
+    "body": ["console.log(\"$1\");"]
+  },
+  "require": {
+    "prefix": "r",
+    "body": ["require(\"$1\");"]
+  },
+  "const require": {
+    "prefix": "cr",
+    "body": ["const $1 = require(\"$2\");"]
+  }
+}
