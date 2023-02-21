@@ -1,0 +1,10 @@
+{
+  "print": {
+    "prefix": "c",
+    "body": ["print(\"$1\");"]
+  },
+  "print variable": {
+    "prefix": "cv",
+    "body": ["print($1);"]
+  }
+}
